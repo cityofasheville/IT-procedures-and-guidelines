@@ -25,5 +25,11 @@ The new [GraphQL standard](http://graphql.org/) released by Facebook in 2015 is 
 ### Data Standards
 TBD
 
-## Data Quality Control
+## Data Governance
+
+### Governance Process
 TBD
+
+![Asheville Data Governance Process](./coa_data_governance_framework.png "Asheville Data Governance Process")
+
+### Quality Control
