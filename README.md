@@ -30,6 +30,6 @@ TBD
 ### Governance Process
 TBD
 
-![Asheville Data Governance Process](./coa_data_governance_framework.png "Asheville Data Governance Process")
+![Asheville Data Governance Process](./assets/coa_data_governance_framework.png "Asheville Data Governance Process")
 
 ### Quality Control
