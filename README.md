@@ -23,13 +23,29 @@ There is near-universal consensus that the current standard for the delivery of 
 The new [GraphQL standard](http://graphql.org/) released by Facebook in 2015 is seeing rapid adoption as a powerful alternative to REST that better reflects the relationships between different datasets, provides access to the underlying schema,  and offers greater control to data clients over what information should be delivered. We are building a second, parallel API to our open datasets at [https://data-api1.ashevillenc.gov/graphql](https://data-api1.ashevillenc.gov/graphql). That API server also supports the GraphiQL interactive exploration tool at [https://data-api1.ashevillenc.gov/graphiql](https://data-api1.ashevillenc.gov/graphiql).
 
 ### Data Standards
-TBD
+The use of common civic standards for common types of data such as [budget and spending](http://specs.frictionlessdata.io/fiscal-data-package/) or [permits](http://permitdata.org/) facilitates sharing and comparison of key data between different departments or between different governments. The City of Asheville is committed to providing standards-compliant versions of its data whenever possible.
 
-## Data Governance
+Providing standards-based versions of our data is a work in progress. For geographic information, all datasets adhere to modern open GIS standards. For most other datasets, we have prioritized the development and implementation of canonical data representations that address the needs of our internal and community users. These representations are typically more detailed than required by common standards.
 
-### Governance Process
-TBD
+Over the course of the 2017-18 fiscal year, we expect to implement common standards-based versions of our financial and permitting data and will look for opportunities to do the same for other datasets as well going forward.
+
+## Open Data Governance
+
+As described in [this blog post](https://digitalsimplicity.io/shared-data-shared-systems-getting-everyone-page/), our external and internal data and reporting systems are built on a shared data management infrastructure so that governance of open data is an integral part of our overall data governance. The following figure illustrates the framework that the City of Asheville data governance operates under:
 
 ![Asheville Data Governance Process](./assets/coa_data_governance_framework.png "Asheville Data Governance Process")
 
+*See __[Open Data Privacy](https://dash.harvard.edu/handle/1/30340010)__, Berkman Klein Center, Harvard University, 2017.
+
+### Open Data Release Process
+
+Datasets may be released proactively or in response to interest from the community. The City of Asheville actively seeks to engage community stakeholders in conversation about what data is of value and how best to provide it. In fact, beginning in the 2017-18 fiscal year, the IT services department, which operates the open data infrastructure, is committed to participating in at least 5 community events per quarter and to organize at least 3 data engagement events per year.
+
+Any dataset under consideration for release undergoes a standard three-stage process:
+
+
 ### Quality Control
+
+
+
+
