@@ -43,7 +43,7 @@ Datasets may be released proactively or in response to interest from the communi
 
 Any dataset under consideration for release undergoes a standard review process by the relevant department, the City attorney if needed, and data specialists in IT Services in order to consider any relevant legal or privacy constraints on release of the data and to ensure that the costs of preparing and maintaining the data are offset by the benefits of release.
 
-The dataset is then prepared for release. At minimum this requires creation of appropropriate database queries and extract-transform-load (ETL) jobs to automate ongoing refresh of the data from internal systems.
+The dataset is then prepared for release. At minimum this requires creation of appropriate database queries and extract-transform-load (ETL) jobs to automate ongoing refresh of the data from internal systems.
 
 Equally important to an effective open data program is to make metadata available for each dataset that documents what the data is, where it comes from, how often it is updated, and any assumptions or filters used in processing it. Some of this information is provided in our current portal, however, we are in the process of radically improving this aspect of ours systems. For details, see [this blog post](https://digitalsimplicity.io/treating-data-like-strategic-asset/). This is a major thrust of our 2017-18 efforts.
 
