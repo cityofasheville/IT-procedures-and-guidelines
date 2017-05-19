@@ -39,7 +39,7 @@ As described in [this blog post](https://digitalsimplicity.io/shared-data-shared
 
 ### Open Data Release Process
 
-Datasets may be released proactively or in response to interest from the community. The City of Asheville actively seeks to engage community stakeholders in conversation about what data is of value and how best to provide it. In fact, beginning in the 2017-18 fiscal year, the IT services department, which operates the open data infrastructure, is committed to participating in at least 5 community events per quarter and to organize at least 3 data engagement events per year.
+Datasets may be released proactively or in response to interest from the community. The City of Asheville actively seeks to engage community stakeholders in conversation about what data is of value and how best to provide it. In fact, beginning in the 2017-18 fiscal year, the IT services department, which operates the open data program, is committed to participating in at least 5 community events per quarter and to organize at least 3 data engagement events per year.
 
 Any dataset under consideration for release undergoes a standard review process by the relevant department, the City attorney if needed, and data specialists in IT Services in order to consider any relevant legal or privacy constraints on release of the data and to ensure that the costs of preparing and maintaining the data are offset by the benefits of release.
 
