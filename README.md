@@ -1,5 +1,12 @@
-# Open Data Governance & Operational Guidelines
+# Data Governance & Operational Guidelines
 #### City of Asheville, NC
+
+## NOTE
+This repository is being updated - December, 2017.
+
+## Data Standards
+
+The [Center for Government Excellence at Johns Hopkins University (GovEx)](https://govex.jhu.edu/) has published a [directory of open data standards](https://datastandards.directory/) used in government. These standards will be used to guide the development of our own internal data representation standards.
 
 ## Background
 On October 13, 2015 the Asheville City Council adopted a [resolution](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) “directing the City Manager to establish an open data policy for the City of Asheville for sustaining public data availability using open data standards.” That resolution outlines high-level requirements for the City of Asheville's open data efforts.
