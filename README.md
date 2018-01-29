@@ -2,7 +2,13 @@
 #### City of Asheville, NC
 
 ## NOTE
-This repository is being updated - December, 2017.
+This repository is being updated - January, 2018.
+
+## Introduction
+
+Add reference to [NC General Statute Chapter 132](https://www.ncga.state.nc.us/enactedlegislation/statutes/html/bychapter/chapter_132.html) and going beyond it with our open data policy.
+
+Also add copies of presentations to governance committee.
 
 ## Data Standards
 
