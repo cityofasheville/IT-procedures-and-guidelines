@@ -1,35 +1,21 @@
 # Data Governance & Operational Guidelines
 #### City of Asheville, NC
 
-## NOTE
-This repository is being updated - January, 2018.
-
-## Introduction
-
-
-Also add copies of presentations to governance committee.
-
-## Data Standards
-
-The [Center for Government Excellence at Johns Hopkins University (GovEx)](https://govex.jhu.edu/) has published a [directory of open data standards](https://datastandards.directory/) used in government. These standards will be used to guide the development of our own internal data representation standards.
-
 ## Background
 On October 13, 2015 the Asheville City Council adopted a [resolution](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) “directing the City Manager to establish an open data policy for the City of Asheville for sustaining public data availability using open data standards.” That resolution outlines high-level requirements for the City of Asheville's open data efforts. This effort allows us to go beyond minimal compliance with  [NC open records laws (NC General Statute Chapter 132)](https://www.ncga.state.nc.us/enactedlegislation/statutes/html/bychapter/chapter_132.html) to enhance the value of City data for the community.
 
 The current site provides more detailed documentation on the implementation of the City's open data program following and building on the [initial technical plan](https://github.com/cityofasheville/open-data-portal-technical-plan-2016) published in October, 2016.
 
-### Updates on Open Data Policy Implementation
-The policy requires staff to "provide the City Council Governance committee an informational report every six months hich evaluates the implementation, successes and barriers, and public uses resulting from the Open Data policy for the first two years after this policy is adopted and once every year thereafter." The reports may be found [here](./governance-committee-reports.md).
-
 ## Review of These Guidelines
-The [open data policy](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) mandates that City staff report on open data policy implementation to the City Council Governance committee every six months through 2017 and annually thereafter. At minimum these guidelines are reviewed and updated by staff before each such report.
+The [open data policy](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) mandates that City staff report on open data policy implementation to the City Council Governance committee every six months through 2017 and annually thereafter. At minimum these guidelines are reviewed and updated by staff before each such report. The reports may be found [here](./governance-committee-reports.md).
+
 
 That said, our intention is to continuously evaluate and improve our open data implementation and we invite public scrutiny and engagement at any time. __If you have a comment, suggestion, or criticism, please file an issue [here](https://github.com/cityofasheville/open-data-governance-and-ops-guidelines/issues)__.
 
 ## Open Data Maintenance Schedule
 Publication of datasets on our open data infrastructure implies a commitment to maintaining their "integrity and usefulness" as directed by the City Council. In practical terms, this means that updates of the data occur automatically or as a regular part of a City process. In the vast majority of cases, datasets are updated automatically every night from internal City systems. In a few cases (such as the [annual proposed budget](http://data.ashevillenc.gov/datasets/6dbc7cc5c7614003a388a614124f00fb_1)), update is carried out on a less frequent schedule aligned with the actual purpose of the data.
 
-## Technical Standards
+## Data Standards
 The City of Asheville is committed to using established standards wherever possible in order to support interoperability.
 
 ### API Standards
@@ -40,9 +26,10 @@ The new [GraphQL standard](http://graphql.org/) released by Facebook in 2015 is 
 ### Data Standards
 The use of common civic standards for common types of data such as [budget and spending](http://specs.frictionlessdata.io/fiscal-data-package/) or [permits](http://permitdata.org/) facilitates sharing and comparison of key data between different departments or between different governments. The City of Asheville is committed to providing standards-compliant versions of its data whenever possible.
 
+The [Center for Government Excellence at Johns Hopkins University (GovEx)](https://govex.jhu.edu/) has published a [directory of open data standards](https://datastandards.directory/) used in government. These standards will be used to guide the development of our own internal data representation standards.
+
 Providing standards-based versions of our data is a work in progress. For geographic information, all datasets adhere to modern open GIS standards. For most other datasets, we have prioritized the development and implementation of canonical data representations that address the needs of our internal and community users. These representations are typically more detailed than required by common standards.
 
-Over the course of the 2017-18 fiscal year, we expect to implement common standards-based versions of our financial and permitting data and will look for opportunities to do the same for other datasets as well going forward.
 
 ## Open Data Governance
 
@@ -58,9 +45,25 @@ Datasets may be released proactively or in response to interest from the communi
 
 Any dataset under consideration for release undergoes a standard review process by the relevant department, the City attorney if needed, and data specialists in IT Services in order to consider any relevant legal or privacy constraints on release of the data and to ensure that the costs of preparing and maintaining the data are offset by the benefits of release.
 
-The dataset is then prepared for release. At minimum this requires creation of appropriate database queries and extract-transform-load (ETL) jobs to automate ongoing refresh of the data from internal systems.
+The review and release process consists of five phases:
 
-Equally important to an effective open data program is to make metadata available for each dataset that documents what the data is, where it comes from, how often it is updated, and any assumptions or filters used in processing it. Some of this information is provided in our current portal, however, we are in the process of radically improving this aspect of ours systems. For details, see [this blog post](https://digitalsimplicity.io/treating-data-like-strategic-asset/). This is a major thrust of our 2017-18 efforts.
+* Release planning
+  * Identify goals and impact
+  * Identify stakeholders
+  * Identify key privacy & security considerations
+* Stakeholder feedback
+  * Meet with all stakeholders to review and update information above. In some cases we'll need to recruit representatives of stakeholder groups (e.g., the public) who can work with us in this process.
+* Data preparation
+  *   * Identify data sources, set up test queries
+Determine automation strategy
+  * Work with data owners to identify and fix quality issues
+* Internal release
+  * Set up an internal-only data feed (and, ideally, simple dashboard)
+  * Communication to share with all stakeholders for final feedback.
+* Public release
+  * Post on open data portal & open up any associated dashboards
+  * Communication to share release (in most cases this will simply be subscribers to the open data portal update list, but in some cases we'll do more extensive communications).
+
 
 
 
