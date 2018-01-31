@@ -6,7 +6,6 @@ This repository is being updated - January, 2018.
 
 ## Introduction
 
-Add reference to [NC General Statute Chapter 132](https://www.ncga.state.nc.us/enactedlegislation/statutes/html/bychapter/chapter_132.html) and going beyond it with our open data policy.
 
 Also add copies of presentations to governance committee.
 
@@ -15,9 +14,12 @@ Also add copies of presentations to governance committee.
 The [Center for Government Excellence at Johns Hopkins University (GovEx)](https://govex.jhu.edu/) has published a [directory of open data standards](https://datastandards.directory/) used in government. These standards will be used to guide the development of our own internal data representation standards.
 
 ## Background
-On October 13, 2015 the Asheville City Council adopted a [resolution](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) “directing the City Manager to establish an open data policy for the City of Asheville for sustaining public data availability using open data standards.” That resolution outlines high-level requirements for the City of Asheville's open data efforts.
+On October 13, 2015 the Asheville City Council adopted a [resolution](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) “directing the City Manager to establish an open data policy for the City of Asheville for sustaining public data availability using open data standards.” That resolution outlines high-level requirements for the City of Asheville's open data efforts. This effort allows us to go beyond minimal compliance with  [NC open records laws (NC General Statute Chapter 132)](https://www.ncga.state.nc.us/enactedlegislation/statutes/html/bychapter/chapter_132.html) to enhance the value of City data for the community.
 
 The current site provides more detailed documentation on the implementation of the City's open data program following and building on the [initial technical plan](https://github.com/cityofasheville/open-data-portal-technical-plan-2016) published in October, 2016.
+
+### Updates on Open Data Policy Implementation
+The policy requires staff to "provide the City Council Governance committee an informational report every six months hich evaluates the implementation, successes and barriers, and public uses resulting from the Open Data policy for the first two years after this policy is adopted and once every year thereafter." The reports may be found [here](./governance-committee-reports.md).
 
 ## Review of These Guidelines
 The [open data policy](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) mandates that City staff report on open data policy implementation to the City Council Governance committee every six months through 2017 and annually thereafter. At minimum these guidelines are reviewed and updated by staff before each such report.
