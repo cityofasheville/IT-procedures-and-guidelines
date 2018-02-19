@@ -15,7 +15,7 @@ You may carry out this modified workflow on either the command line or in the Gi
 2. Make sure you select _Squash and merge_ as shown below and write a commit message that describes the sum total change (i.e., appropriate for release notes).
 3. After validating the merged feature, delete ```branch1```. Do not continue development on an already-merged feature branch - start a new one instead.
 
-![squash-merge](../assets/squash-merge.png)
+![squash-merge](../assets/squash-and-merge.png)
 
 ### Command Line
 ````
