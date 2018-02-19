@@ -6,7 +6,7 @@ This site offers detailed documentation on the implementation of the City's open
 The [open data policy](http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf) mandates that City staff report on open data policy implementation to the City Council Governance committee every six months through 2017 and annually thereafter. At minimum these guidelines are reviewed and updated by staff before each such report. The reports may be found [here](./governance-committee-reports.md).
 
 
-That said, our intention is to continuously evaluate and improve our open data implementation and we invite public scrutiny and engagement at any time. __If you have a comment, suggestion, or criticism, please file an issue [here](https://github.com/cityofasheville/open-data-governance-and-ops-guidelines/issues)__.
+That said, our intention is to continuously evaluate and improve our open data implementation and we invite public scrutiny and engagement at any time. __If you have a comment, suggestion, or criticism, please file an issue [here](https://github.com/cityofasheville/IT-procedures-and-guidelines/issues)__.
 
 ## Open Data Maintenance Schedule
 Publication of datasets on our open data infrastructure implies a commitment to maintaining their "integrity and usefulness" as directed by the City Council. In practical terms, this means that updates of the data occur automatically or as a regular part of a City process. In the vast majority of cases, datasets are updated automatically every night from internal City systems. In a few cases (such as the [annual proposed budget](http://data.ashevillenc.gov/datasets/6dbc7cc5c7614003a388a614124f00fb_1)), update is carried out on a less frequent schedule aligned with the actual purpose of the data.
@@ -31,7 +31,7 @@ Providing standards-based versions of our data is a work in progress. For geogra
 
 As described in [this blog post](https://digitalsimplicity.io/shared-data-shared-systems-getting-everyone-page/), our external and internal data and reporting systems are built on a shared data management infrastructure so that governance of open data is an integral part of our overall data governance. The following figure illustrates the framework that the City of Asheville data governance operates under:
 
-![Asheville Data Governance Process](./assets/coa_data_governance_framework.png "Asheville Data Governance Process")
+![Asheville Data Governance Process](../assets/coa_data_governance_framework.png "Asheville Data Governance Process")
 
 *See __[Open Data Privacy](https://dash.harvard.edu/handle/1/30340010)__, Berkman Klein Center, Harvard University, 2017.
 
