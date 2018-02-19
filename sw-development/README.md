@@ -1,7 +1,5 @@
 # Software Development Conventions and Procedures
 
-blah
-
 ## Github Workflow
 
 Development of web applications at the City of Asheville uses a slight variant of the GitFlow model, which you can read about here: http://nvie.com/posts/a-successful-git-branching-model/. The one difference from the procedure described there is that we squash commits from a feature (or hotfix) branch and merge into the development and/or master branches with a single commit message (we do __not__, however, squash commits when merging a release branch). 
