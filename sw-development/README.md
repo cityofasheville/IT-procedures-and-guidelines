@@ -2,7 +2,7 @@
 
 ## Github Workflow
 
-Development of web applications at the City of Asheville uses a slight variant of the GitFlow model, which you can read about here: http://nvie.com/posts/a-successful-git-branching-model/. The one difference from the procedure described there is that we squash commits from a feature (or hotfix) branch and merge into the development and/or master branches with a single commit message (we do __not__, however, squash commits when merging a release branch). 
+Development of web applications at the City of Asheville uses a slightly modified variant of the GitFlow model, which you can read about here: http://nvie.com/posts/a-successful-git-branching-model/. The one difference from the procedure described there is that we squash commits from a feature (or hotfix) branch and merge into the development and/or master branches with a single commit message (we do __not__, however, squash commits when merging a release branch). 
 
 There are two reasons for this. First, we __strongly__ disagree with the statements made about feature-branch changes only living in a developer's repository - changes should be regularly committed to the feature-branch in the main repository on Github. Second, the string of commits that are merged into the master branch as part of a release should have commit messages that naturally translate to release notes. That won't work if we have dozens of commit messages like 'Saving for the day.'
 
