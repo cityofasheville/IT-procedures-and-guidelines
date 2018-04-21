@@ -16,7 +16,21 @@ case "$1" in
     git merge --squash hotfix-$2
     ;;
   rel*)
-    echo arelease
+    echo "# Check out the development branch"
+    git checkout development
+    git checkout -b release-$2
+    echo "# Replace version with " $2
+    sed -i.bak 's/\"version\": \"[0-9]*\.[0-9]*\.[0-9]*\"/\"version\": \"'$2'\"/' package.json 
+    echo "Version replaced in package.json: " `grep version package.json`
+    git add package.json
+    git commit -m 'Create release branch '$2
+    git checkout master
+    git merge release-$2
+    git push origin master
+    git checkout development
+    git merge release-$2
+    git push origin development
+    git branch -d release-$2
     echo here we go
     ;;
   fea*)
