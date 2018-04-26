@@ -22,7 +22,10 @@ case "$1" in
     ;;
   rel*)
     echo "# Check out the development branch"
+    git checkout master
+    git pull origin master
     git checkout development
+    git pull origin development
     git checkout -b release-$2
     echo "# Bump to new version " $2
     sed --in-place 's/\"version\": \"[0-9]*\.[0-9]*\.[0-9]*\"/\"version\": \"'$2'\"/' package.json 
