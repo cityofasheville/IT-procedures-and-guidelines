@@ -13,7 +13,7 @@ case "$1" in
     echo Running test
     LASTREL=`git describe --tags --abbrev=0`
     echo 'LAST RELEASE: '$LASTREL
-    RN=`git log $LASTREL..HEAD --oneline --grep=AVL-RN | sed 's/[a-zA-Z0-9]* AVL-RN:/\-/' | sed '1 i Release Notes:' | sed '1 i Release '${2}''`
+    RN=`git log $LASTREL..HEAD --oneline --grep=AVL-RN | sed 's/[a-zA-Z0-9]* AVL-RN:?/\-/' | sed '1 i Release Notes:' | sed '1 i Release '${2}''`
     git tag -a -m "${RN}" $2
     ;;
   hot)
@@ -37,7 +37,7 @@ case "$1" in
     echo "# Create release with release notes"
     LASTREL=`git describe --tags --abbrev=0`
     echo '# LAST RELEASE: '$LASTREL
-    RN=`git log $LASTREL..HEAD --oneline --grep=AVL-RN | sed 's/[a-zA-Z0-9]* AVL-RN:/\-/' | sed '1 i Release Notes:' | sed '1 i Release '${2}''`
+    RN=`git log $LASTREL..HEAD --oneline --grep=AVL-RN | sed 's/[a-zA-Z0-9]* AVL-RN:?/\-/' | sed '1 i Release Notes:' | sed '1 i Release '${2}''`
     git tag -a -m "${RN}" $2
     git push --tags origin master
     git checkout development
